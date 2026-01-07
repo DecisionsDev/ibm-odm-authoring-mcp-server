@@ -144,8 +144,7 @@ This ODM instance will be available for the MCP Server, pre-populated with sampl
    - On macOS, click the Claude menu in the top menu bar and select **Settings**.
    - On Windows, access **Settings** from the Claude application.
 
-1. Navigate to the **Developer** tab and click **Edit Config**:
-![Screenshot showing Claude tools](images/claude-setting-developer.png)
+1. Navigate to the **Developer** tab and click **Edit Config**
 
 1. This opens a window allowing you to open the configuration file:
    - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
