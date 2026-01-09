@@ -81,7 +81,9 @@ class DecisionCenterManager:
         def fix_missing_type(components:dict):
             for param_name, properties in components.get('parameters').items():
                 schema = properties.get('schema')
-                if schema is not None and schema.get('type') is None:
+                if schema is None:
+                    properties['schema'] = {'type': 'string'}
+                elif schema.get('type') is None:
                     schema['type'] = 'string'
 
         def fix_missing_enum(components:dict):
