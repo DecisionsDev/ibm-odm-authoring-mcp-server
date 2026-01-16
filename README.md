@@ -21,7 +21,7 @@ For detailed instructions on setting up and using Claude Desktop with the Manage
 
 Watch our demo video to see Claude Desktop integration in action:
 
-https://github.com/user-attachments/assets/2c57459d-00f5-4da6-9aae-ced3e60992ac
+https://github.com/user-attachments/assets/26c038a2-d650-47c5-a09e-4c1da62c578e
 
 
 ## Prerequisites & Installation
